@@ -20,19 +20,19 @@ Este proyecto es una API RESTful desarrollada con **FastAPI**, que conecta a una
 ## 📁 Estructura del proyecto
 
 📁 app/
-├── main.py # Punto de entrada FastAPI
-├── models.py # Modelos ORM
-├── schemas.py # Esquemas Pydantic
-├── crud.py # Operaciones con la DB
-├── db.py # Conexión DB
-├── security.py # Lógica de JWT y seguridad
-├── routes/
-│ ├── auth.py # Autenticación (login, register)
-│ └── users.py # CRUD de usuarios
-├── config.py # Configuración de entorno
-📄 requirements.txt # Dependencias
-📄 Dockerfile # Imagen del contenedor
-📄 .env # Variables de entorno
+├── main.py # Punto de entrada FastAPI  
+├── models.py # Modelos ORM  
+├── schemas.py # Esquemas Pydantic  
+├── crud.py # Operaciones con la DB  
+├── db.py # Conexión DB  
+├── security.py # Lógica de JWT y seguridad  
+├── routes/  
+│ ├── auth.py # Autenticación (login, register)  
+│ └── users.py # CRUD de usuarios  
+├── config.py # Configuración de entorno  
+📄 requirements.txt # Dependencias  
+📄 Dockerfile # Imagen del contenedor  
+📄 .env # Variables de entorno  
 
 
 ---
@@ -49,8 +49,8 @@ Este proyecto es una API RESTful desarrollada con **FastAPI**, que conecta a una
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tuusuario/nombre-del-repo.git
-cd nombre-del-repo
+git clone https://github.com/victorlimon/microweb-basico
+cd microweb-basico
 ```
 
 ### 2. Crear archivo `.env`
