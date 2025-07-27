@@ -19,7 +19,7 @@ Este proyecto es una API RESTful desarrollada con **FastAPI**, que conecta a una
 
 ## 📁 Estructura del proyecto
 
-📁 app/
+📁 app/  
 ├── main.py # Punto de entrada FastAPI  
 ├── models.py # Modelos ORM  
 ├── schemas.py # Esquemas Pydantic  
